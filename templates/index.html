@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<h1>Meraki Demo App</h1> 
+		<form  action="/login" method="POST">
+			<p>Enter Your Email Address: </p>
+			<input type="text" name="user_email_address">
+			<input type="submit" value="Access">
+		</form>
+		<div class="footer">
+			<p>Your IP: {{client_ip}}</p>
+			<p>Your MAC: {{client_mac}}</p>
+			<p>AP MAC: {{node_mac}}</p>
+		</div>
+
+	</body>
+</html>
